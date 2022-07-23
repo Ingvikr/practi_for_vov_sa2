@@ -1,0 +1,206 @@
+.wrappe {
+    border: 7px solid darkgreen;
+    .blo_1 {
+        border: 7px solid darkgreen;
+        .blo_1_ro {
+            display: flex;
+            row-gap: 17px;
+            flex-direction: column;
+            border: 7px solid darkgreen;
+            .blo_1_ro_tx1 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+                border: 7px solid darkgreen;
+            }
+
+            .blo_1_ro_tx2 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Sans 3", sans-serif;
+                border: 7px solid darkgreen;
+            }
+
+            .blo_1_ro_tx3 {
+                border: 7px solid darkgreen;
+                .blo_1_ro_tx3_desc1 {
+                    border: 7px solid darkgreen;
+                    .blo_1_ro_tx3_desc1_ro {
+                        display: flex;
+                        row-gap: 9px;
+                        flex-direction: column;
+                        border: 7px solid darkgreen;
+                        .blo_1_ro_tx3_desc1_ro_tx1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            list-style: none;
+                            border: 7px solid darkgreen;
+
+                            &::after {
+                                content: " -webkit-scrollbar{background-color:transparent;} ";
+                                position: absolute;
+                                background-color: darkgrey;
+                            }
+                            .blo_1_ro_tx3_desc1_ro_tx1_desc1 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                            }
+                        }
+
+                        .blo_1_ro_tx3_desc1_ro_tx2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            list-style: none;
+                            border: 7px solid darkgreen;
+
+                            &::after {
+                                content: " -webkit-scrollbar-thumb{ width:19px; height:7px; background-color:transparent;} ";
+                                position: absolute;
+                                background-color: darkgrey;
+                            }
+
+                            .blo_1_ro_tx3_desc1_ro_tx2_desc1 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                            }
+                        }
+
+                        .blo_1_ro_tx3_desc1_ro_tx3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            list-style: none;
+                            border: 7px solid darkgreen;
+
+                            &::after {
+                                content: " -webkit-scrollbar-track{background-color:transparent;} ";
+                                position: absolute;
+                                background-color: darkgrey;
+                            }
+
+                            .blo_1_ro_tx3_desc1_ro_tx3_desc1 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                            }
+                        }
+
+                        .blo_1_ro_tx3_desc1_ro_tx4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            list-style: none;
+                            border: 7px solid darkgreen;
+                        }
+
+                        .blo_1_ro_tx3_desc1_ro_tx5 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            list-style: none;
+                            border: 7px solid darkgreen;
+                            .blo_1_ro_tx3_desc1_ro_tx5_desc1 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blo_2 {
+        border: 7px solid darkgreen;
+        .blo_2_ro {
+            display: flex;
+            row-gap: 9px;
+            max-width: 377px;
+            cursor: pointer;
+            max-height: 33px;
+            overflow: hidden;
+            flex-direction: column;
+            border: 7px solid darkgreen;
+            transition: 0.5s;
+            &:hover {
+                display: flex;
+                row-gap: 9px;
+                max-width: 279px;
+                overflow: auto;
+                cursor: pointer;
+                max-height: 319px;
+                box-shadow: 1px 0px 4px 8px;
+                flex-direction: column;
+                border: 7px solid darkgreen;
+                &::-webkit-scrollbar {
+                    width: 15px;
+                    border-radius: 75px;
+                    background-color: transparent;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 75px;
+                    background-color: black;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background-color: transparent;
+                }
+            }
+            .blo_2_ro_tx1 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+                border: 7px solid darkgreen;
+            }
+
+            .blo_2_ro_tx2 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Sans 3", sans-serif;
+                border: 7px solid darkgreen;
+            }
+
+            .blo_2_ro_but1 {
+                width: 77px;
+                height: 31px;
+                border: 3px solid darkgreen;
+                background-color: transparent;
+                font-style: normal;
+                font-size: 17px;
+                cursor: pointer;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+                transition: 0.5s;
+                &:hover {
+                    width: 77px;
+                    height: 31px;
+                    border: 3px solid darkgreen;
+                    background-color: darkgreen;
+                    font-style: normal;
+                    cursor: pointer;
+                    font-size: 17px;
+                    color: white;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+            }
+        }
+    }
+}
