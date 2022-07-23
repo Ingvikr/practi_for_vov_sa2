@@ -1,0 +1,42 @@
+$scree_doug_1:1440px;
+$scree_doug_2:1024px;
+$scree_doug_3:768px;
+$scree_doug_4:425px;
+$scree_doug_5:375px;
+$scree_doug_6:320px;
+
+@mixin scree_dough_1 () {
+    @media(max-width:$scree_doug_1) {
+        @content;
+    }
+}
+
+@mixin scree_dough_2 () {
+    @media(max-width:$scree_doug_2) {
+        @content;
+    }
+}
+
+@mixin scree_dough_3 () {
+    @media(max-width:$scree_doug_3) {
+        @content;
+    }
+}
+
+@mixin scree_dough_4 () {
+    @media(max-width:$scree_doug_4) {
+        @content;
+    }
+}
+
+@mixin scree_dough_5 () {
+    @media(max-width:$scree_doug_5) {
+        @content;
+    }
+}
+
+@mixin scree_dough_6 () {
+    @media(max-width:$scree_doug_6) {
+        @content;
+    }
+}
